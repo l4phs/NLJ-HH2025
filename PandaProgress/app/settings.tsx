@@ -4,8 +4,10 @@ import * as SplashScreen from "expo-splash-screen";
 import { Amarante_400Regular } from "@expo-google-fonts/amarante";
 import { useFonts } from "expo-font";
 
+//File for Settings stats
 
-export default function WeeklyScreen() {
+
+export default function SettingsScreen() {
 
 
   SplashScreen.preventAutoHideAsync();
@@ -26,7 +28,7 @@ export default function WeeklyScreen() {
 
   return (
     <View style={styles.screenContainer}>
-      <Text style={styles.titleHeader}>Weekly Stats</Text>
+      <Text style={styles.titleHeader}>Settings</Text>
     </View>
   );
 }
@@ -44,4 +46,3 @@ const styles = StyleSheet.create({
     fontFamily: "Amarante_400Regular",
   },
 });
-

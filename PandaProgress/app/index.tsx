@@ -4,6 +4,7 @@ import * as SplashScreen from "expo-splash-screen";
 import { Amarante_400Regular } from "@expo-google-fonts/amarante";
 import { useFonts } from "expo-font";
 
+//This file is the first main page that loads
 
 // Prevent splash screen from hiding automatically
 SplashScreen.preventAutoHideAsync();
@@ -51,10 +52,10 @@ const styles = StyleSheet.create({
     marginBottom:70,
   },
   smallFont: {
-    fontSize: 18,
+    fontSize: 24,
     color: "#F3F7F2",
     fontFamily: "Amarante_400Regular",
-    marginRight: 450,
+    marginRight: 428,
     marginBottom:25,
   },
   statusbar: {
