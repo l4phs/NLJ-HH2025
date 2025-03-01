@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     paddingTop: 60,
     alignItems: "center",
     backgroundColor:"#8DB580",
+    height: "100%"
   },
   titleHeader: {
     fontSize: 44,

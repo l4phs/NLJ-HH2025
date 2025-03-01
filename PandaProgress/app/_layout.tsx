@@ -44,13 +44,14 @@ export default function Layout() {
           return <Ionicons name={iconName} size={size} color={color} />;
         },
         tabBarActiveTintColor:"#344C2F",
-        tabBarInactiveTintColor:"#F3F7F2",
+        tabBarInactiveTintColor:"rgba(141, 181, 128, 0.6)",
         tabBarStyle: { backgroundColor:"#507345"},
         tabBarLabelStyle: {
           fontFamily: "Amarante_400Regular",
           fontSize: 18, 
         },
         tabBarActiveBackgroundColor: "#5A804D",
+        
       })}
     >
       <Tab.Screen name="Home" component={Index} />
