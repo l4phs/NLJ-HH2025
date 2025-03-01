@@ -1,18 +1,18 @@
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
 
-export default function Index() {
+export default function DailyScreen() {
   return (
     <View style={styles.screenContainer}>
-      <Text style={styles.titleHeader}>Panda Progress</Text>
+      <Text style={styles.titleHeader}>Settings</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   screenContainer: {
-    flex: 1, // Use flex instead of fixed height
-    paddingTop: 60,
+    flex: 1,
+    justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#95B299",
   },
