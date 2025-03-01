@@ -5,7 +5,7 @@ import { Amarante_400Regular } from "@expo-google-fonts/amarante";
 import { useFonts } from "expo-font";
 
 
-export default function DailyScreen() {
+export default function WeeklyScreen() {
 
 
   SplashScreen.preventAutoHideAsync();
@@ -26,7 +26,7 @@ export default function DailyScreen() {
 
   return (
     <View style={styles.screenContainer}>
-      <Text style={styles.titleHeader}>Daily Stats</Text>
+      <Text style={styles.titleHeader}>Weekly Stats</Text>
     </View>
   );
 }
