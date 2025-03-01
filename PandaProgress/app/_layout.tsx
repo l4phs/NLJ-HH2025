@@ -4,10 +4,15 @@ import React, {useEffect } from "react";
 import * as SplashScreen from "expo-splash-screen";
 import { Amarante_400Regular } from "@expo-google-fonts/amarante";
 import { useFonts } from "expo-font";
+
+// File Handles bottom navbar information and screen changes
+
 // Import your screens
 import Index from "./index"; // Home screen
 import DailyScreen from "./daily";
-import WeeklyScreen from "./weekly";
+import AverageScreen from "./average";
+import SettingsScreen from "./settings";
+
 
 // Create bottom tab navigator
 const Tab = createBottomTabNavigator();
@@ -50,7 +55,8 @@ export default function Layout() {
     >
       <Tab.Screen name="Home" component={Index} />
       <Tab.Screen name="Daily" component={DailyScreen} />
-      <Tab.Screen name="Weekly" component={WeeklyScreen}/>
+      <Tab.Screen name="Average" component={AverageScreen}/>
+      <Tab.Screen name="Settings" component={SettingsScreen}/>
     </Tab.Navigator>
   );
 }
