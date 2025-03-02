@@ -165,7 +165,7 @@ export default function SettingsScreen() {
         keyboardType="numeric" 
         maxLength={5} 
       />
-
+<Text style={styles.contentCss}>Current Destress Goal: {destressGoal}</Text>
            {/* Text Input for destress goal */}
            <TextInput
         style={styles.input}
