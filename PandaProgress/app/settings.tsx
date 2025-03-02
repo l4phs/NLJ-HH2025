@@ -108,7 +108,7 @@ export default function SettingsScreen() {
   return (
     <View style={styles.screenContainer}>
       <Text style={styles.titleHeader}>Set Your Daily Goals</Text>
-      <Image source={require('@/assets/images/Bamboo4Horizontal..png')} style={styles.bambooBar} />
+      <Image source={require('@/assets/images/Bamboo4Horizontal.png')} style={styles.bambooBar} />
       
       <Text style={styles.contentCss}>Current Step Goal: {stepsGoal}</Text>
       {/* Text Input for steps goal */}
