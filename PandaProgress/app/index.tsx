@@ -142,7 +142,7 @@ export default function Index() {
         <View style={styles.container1} >
           <Text style={styles.smallFont}>Panda Health: {healthScore}</Text>
           <View style={styles.container}>
-            <View style={styles.statusbar}></View>
+            {/* <View style={styles.statusbar}></View> */}
             {/* Bamboo images with opacity controlled by the state */}
             <Image id="bamboo1" source={require("@/assets/images/Bamboo1Horizontal.png")} style={[styles.bambooBar, { opacity: opacityBamboo1 }]} />
             <Image id="bamboo2" source={require("@/assets/images/Bamboo2Horizontal.png")} style={[styles.bambooBar1, { opacity: opacityBamboo2 }]} />
@@ -187,7 +187,7 @@ const styles = StyleSheet.create({
     color: "#F3F7F2",
   },
   pandacontainer:{
-    height: 500,
+    height: 400,
     width:"100%",
     backgroundColor: "purple",
     position: "relative",
@@ -197,21 +197,21 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
     zIndex: 2,
-    backgroundColor: "orange",
+    // backgroundColor: "orange",
   },
 
   image1: {
     width: "100%",
     height: "100%",
     zIndex: 2,
-    backgroundColor: "green",
+    // backgroundColor: "green",
     position: "absolute",
   }, 
    image2: {
     width: "100%",
     height: "100%",
     zIndex: 2,
-    backgroundColor: "blue",
+    // backgroundColor: "blue",
     position: "absolute",
 
   },
@@ -223,24 +223,26 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     marginTop: "0%",
   },
-});
-/*
+
   container: {
     flexDirection: "row",
     //justifyContent: "center",
     alignItems: "center",
     width: "100%",
+    top:"10",
     height: 200,
-    marginTop: "-30%",
+    // backgroundColor: "purple",
+    left: "-315",
+    position: "absolute",
   },
   pandacontainer: {
     flexDirection: "row",
     //justifyContent: "center",
     alignItems: "center",
     width: "100%",
-    height: "50%",
-    marginTop: "5%",
-    backgroundColor: "red",
+    height: "400%",
+    // marginTop: "5%",
+    // backgroundColor: "red",
 
   },
 
@@ -249,7 +251,7 @@ const styles = StyleSheet.create({
     width: "100%",
     marginRight: "90%",
     zIndex: 2,
-    position: "relative",
+    position: "absolute",
   },
 
   bambooBar1: {
@@ -258,7 +260,7 @@ const styles = StyleSheet.create({
     marginRight: "90%",
     zIndex: 3,
     left: "0%",
-    position: "relative",
+    position: "absolute",
   },
   bambooBar2: {
     height: "40%",
@@ -266,13 +268,13 @@ const styles = StyleSheet.create({
     marginRight:"90%",
     zIndex: 4,
     left: "0%",
-    position: "relative",
+    position: "absolute",
   },
   bambooBar3: {
     height: "40%",
     width: "100%",
     zIndex: 5,
-    position: "relative",
+    position: "absolute",
     marginTop: "20%",
   },
   bambooBar4: {
@@ -281,7 +283,7 @@ const styles = StyleSheet.create({
     marginRight: 0,
     zIndex: 6,
     left: "-0.5%",
-    position: "relative",
+    position: "absolute",
   },
   statusbar: {
     height: "10%",
@@ -290,7 +292,6 @@ const styles = StyleSheet.create({
   },
 
 });
-*/
 /*
 const styles = StyleSheet.create({
   screenContainer: {
