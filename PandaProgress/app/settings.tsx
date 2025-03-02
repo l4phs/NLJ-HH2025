@@ -97,6 +97,7 @@ export default function SettingsScreen() {
         encoding: FileSystem.EncodingType.UTF8,
       });
       console.log("CSV file saved successfully!");
+      Alert.alert("Success", "Your goals have been saved!");
       console.log(fileUri);
     } catch (error) {
       console.error("Error saving CSV file:", error);
