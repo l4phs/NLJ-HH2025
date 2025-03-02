@@ -1,4 +1,4 @@
-Smalltalk Information:
+Smalltalk Information (Briefly with a lot of pictures).
 
 **Overall**
 
@@ -12,7 +12,7 @@ for our average page to supply the statistics and the backend of our program.
 The updated csv sheet looks like: 
 ![image](https://github.com/user-attachments/assets/3adf3968-cea4-4314-af61-dec4a6166acd)
 
-The Pharo image was too big to be published on Github (even when compressed) but can be emailed if needed.
+The Pharo image was too big to be published on Github and wouldn't allowed for classes to be uploaded (even when compressed) but can be emailed if needed.
 
 **Smalltalk In The Application**
 
