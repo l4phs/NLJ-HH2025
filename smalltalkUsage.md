@@ -9,7 +9,8 @@ for our average page to supply the statistics and the backend of our program.
 ![image](https://github.com/user-attachments/assets/bca5e92b-138c-4e9b-8302-90fb6454b419)
 
 The updated csv sheet looks like: 
-![image](https://github.com/user-attachments/assets/3adf3968-cea4-4314-af61-dec4a6166acd)
+![image](https://github.com/user-attachments/assets/e6da1aec-706e-4ef4-a01e-0cdf3d52c397)
+
 
 The Pharo image was too big to be published on Github and wouldn't allowed for classes to be uploaded (even when compressed) but can be emailed if needed.
 
