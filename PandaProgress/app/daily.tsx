@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   },
   idividualStats: {
     width: "80%",
-    height: 300,
+    height: 275,
     borderRadius: 25,
     borderCurve: "circular",
     backgroundColor: "rgba(255, 255, 255, 0.34)",

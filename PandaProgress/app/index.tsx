@@ -1,8 +1,9 @@
-import React, {useEffect } from "react";
+import React, { useEffect } from "react";
 import { Text, View, StyleSheet, Image } from "react-native";
 import * as SplashScreen from "expo-splash-screen";
 import { Amarante_400Regular } from "@expo-google-fonts/amarante";
 import { useFonts } from "expo-font";
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 //This file is the first main page that loads
 
@@ -25,12 +26,14 @@ export default function Index() {
   }
 
   return (
-    <View style={styles.screenContainer}>
-      <Text style={styles.titleHeader}>Panda Progress</Text>  
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <View style={styles.screenContainer}>
+        <Text style={styles.titleHeader}>Panda Progress</Text>
         <Image source={require('@/assets/images/react-logo.png')} style={styles.image} />
         <Text style={styles.smallFont}>Panda Status: </Text>
         <View style={styles.statusbar}></View>
-    </View>
+      </View>
+    </GestureHandlerRootView>
   );
 }
 
@@ -39,7 +42,7 @@ const styles = StyleSheet.create({
     flex: 1, // Use flex instead of fixed height
     paddingTop: 60,
     alignItems: "center",
-    backgroundColor:"#8DB580",
+    backgroundColor: "#8DB580",
     height: "100%"
   },
   titleHeader: {
@@ -48,21 +51,21 @@ const styles = StyleSheet.create({
     fontFamily: "Amarante_400Regular",
   },
   image: {
-    width: 500, 
-    height: 600, 
-    marginBottom:70,
+    width: 500,
+    height: 600,
+    marginBottom: 70,
   },
   smallFont: {
     fontSize: 24,
     color: "#F3F7F2",
     fontFamily: "Amarante_400Regular",
     marginRight: 428,
-    marginBottom:25,
+    marginBottom: 25,
   },
   statusbar: {
     height: 50,
     width: 575,
-    backgroundColor:"rgb(38, 65, 31)",
+    backgroundColor: "rgb(38, 65, 31)",
   },
 
 });
