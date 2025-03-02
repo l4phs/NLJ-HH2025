@@ -35,26 +35,26 @@ export default function Layout() {
     <GestureHandlerRootView style={{ flex: 1 }}>
 
     <Tab.Navigator
-        screenOptions={({ route }) => ({
-          headerShown: false,
-          tabBarShowLabel: false,
-          tabBarStyle: {
-            position: "absolute",
-            bottom: 20,
-            left: "90%",
-            transform: [{ translateX: "80%" }],
-            width: 300,
-            height: 70,
-            backgroundColor: "#507345",
-            borderRadius: 35,
-            justifyContent: "center",
-            alignItems: "center",
-            elevation: 5,
-            shadowColor: "#000",
-            shadowOffset: { width: 0, height: 4 },
-            shadowOpacity: 0.3,
-            shadowRadius: 4,
-          },
+                screenOptions={({ route }) => ({
+                  headerShown: false,
+                  tabBarShowLabel: false,
+                  tabBarStyle: {
+                    position: "absolute",
+                    bottom: 20,
+                    left: "50%",
+                    transform: [{ translateX: 275 }],
+                    width: 250,
+                    height: 70,
+                    backgroundColor: "#507345",
+                    borderRadius: 35,
+                    justifyContent: "center",
+                    alignItems: "center",
+                    elevation: 5,
+                    shadowColor: "#000",
+                    shadowOffset: { width: 0, height: 4 },
+                    shadowOpacity: 0.3,
+                    shadowRadius: 4,
+                  },
         tabBarIcon: ({ focused, color, size }) => {
           let iconName: keyof typeof Ionicons.glyphMap = "home";
           switch (route.name) {

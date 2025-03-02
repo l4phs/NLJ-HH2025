@@ -31,7 +31,9 @@ export default function Index() {
         <Text style={styles.titleHeader}>Panda Progress</Text>
         <Image source={require('@/assets/images/PandaOG.png')} style={styles.image} />
         <Text style={styles.smallFont}>Panda Status: </Text>
-        <View style={styles.statusbar}></View>
+        <View style={styles.statusbar}>
+        <Image source={require('@/assets/images/Bamboo6Horizontal.png')} style={styles.bambooBar} />
+        </View>
       </View>
     </GestureHandlerRootView>
   );
@@ -39,8 +41,8 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   screenContainer: {
-    flex: 1, // Use flex instead of fixed height
-    paddingTop: 60,
+    //flex: 1, // Use flex instead of fixed height
+    paddingTop: "6%",
     alignItems: "center",
     backgroundColor: "#8DB580",
     height: "100%"
@@ -52,22 +54,28 @@ const styles = StyleSheet.create({
   },
   image: {
     marginTop: "12%",
-    width: 700,
-    height: 550,
-    marginBottom: 10,
-    marginRight: "20%",
+    width: "100%",
+    height: "50%",
+    marginBottom: "2%",
+    //marginRight: "20%",
   },
   smallFont: {
     fontSize: 24,
     color: "#F3F7F2",
     fontFamily: "Amarante_400Regular",
-    marginRight: 428,
-    marginBottom: 25,
+    marginRight: "50%",
+    height: "20%",
+    width: "40%",
+    marginBottom: "-15%",
   },
   statusbar: {
-    height: 50,
-    width: 575,
+    height: "10%",
+    width: "70%",
     backgroundColor: "rgb(38, 65, 31)",
   },
+  bambooBar: {
+    height: "100%",
+    width: "100%",
+  }
 
 });
