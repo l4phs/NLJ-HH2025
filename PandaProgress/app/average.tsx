@@ -52,7 +52,7 @@ export default function AverageScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.screenContainer}>
-      <Text style={styles.titleHeader}>Average Stats:</Text>
+      <Text style={styles.titleHeader}>Average Stats</Text>
 
       {/* Total Steps */}
       <View style={styles.sectionContainer}>
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     paddingBottom: 100, // Padding at the bottom
   },
   titleHeader: {
-    fontSize: 38,
+    fontSize: 50,
     color: "#F3F7F2", // Light color for the title
     fontFamily: "Amarante_400Regular", // Custom font
     textAlign: "center", // Center the title
