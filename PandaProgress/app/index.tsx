@@ -197,7 +197,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
     zIndex: 2,
-    backgroundColor: "green",
+    backgroundColor: "orange",
   },
 
   image1: {
@@ -205,12 +205,14 @@ const styles = StyleSheet.create({
     height: "100%",
     zIndex: 2,
     backgroundColor: "green",
+    position: "absolute",
   }, 
    image2: {
     width: "100%",
     height: "100%",
     zIndex: 2,
     backgroundColor: "blue",
+    position: "absolute",
 
   },
   smallFont: {
