@@ -18,6 +18,7 @@ export default function SettingsScreen() {
   const [exerciseGoal, setExercise] = useState(""); 
   const [sleepTimeGoal, setSleepTime] = useState(""); 
   const [calorieBurnGoal, setCalories] = useState(""); 
+  const [destressGoal, setDestress] = useState(""); 
 
   useEffect(() => {
     if (fontsLoaded) {
@@ -57,6 +58,13 @@ export default function SettingsScreen() {
     }
   };
 
+    // Handle changes for the calorie input field
+    const handleDestressChange = (text: string) => {
+      if (/^\d*$/.test(text)) { 
+        setDestress(text); 
+      }
+    };
+
   // Define the file path in the app's document directory
   const fileUri = FileSystem.documentDirectory + 'fitnessGoals.csv';
 
@@ -64,8 +72,8 @@ export default function SettingsScreen() {
   const handleSubmit = async () => {
     try {
       // Create an array of the input values
-      const goalsArray = [["steps", "exercise", "sleep", "calorie"], //header row
-         [stepsGoal, exerciseGoal, sleepTimeGoal, calorieBurnGoal] //data row
+      const goalsArray = [["steps", "exercise", "sleep", "calorie", "destress"], //header row
+         [stepsGoal, exerciseGoal, sleepTimeGoal, calorieBurnGoal, destressGoal] //data row
       ];
 
       // Log the array of goals to the console
@@ -156,6 +164,17 @@ export default function SettingsScreen() {
         onChangeText={handleCalorieChange}  
         keyboardType="numeric" 
         maxLength={5} 
+      />
+
+           {/* Text Input for destress goal */}
+           <TextInput
+        style={styles.input}
+        placeholder="Enter your destress goal (in minutes)"
+        placeholderTextColor="gray"
+        value={destressGoal}  
+        onChangeText={handleDestressChange}  
+        keyboardType="numeric" 
+        maxLength={3} 
       />
       
       {/* Submit Button */}
