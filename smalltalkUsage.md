@@ -36,6 +36,7 @@ A panda is created when given an OrderedCollection from a PandaList:
 
 After all the pandas are created, the PandaList will be an OrderedCollection filled with every piece of data in the form of a panda: 
 ![image](https://github.com/user-attachments/assets/2f3f9934-c097-48cd-b807-9f06c55ca250). 
+
 From there it will then do all the methods that process the data for our application.
 
 **Data Processing Methods**
