@@ -1,0 +1,10 @@
+
+
+.bambooBar5 {
+    height: "2%";
+    transition: width 3s ease-in-out;
+    z-index: 6;
+    left: "0";
+    position: "absolute";
+    background-color: bisque;
+  }
