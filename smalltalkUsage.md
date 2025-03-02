@@ -3,8 +3,7 @@ Smalltalk Information (Briefly with a lot of pictures).
 **Overall**
 
 Smalltalk was used in this application via Pharo and was used to process data regarding how much steps a user walked. 
-Calling the following method in VSCode with the command (& "C:\Users\natha\Documents\Pharo\vms\130-x64\Pharo.exe" "C:\Users\natha\Documents\Pharo\images\Pharo 13.0 
-64bit (development version, latest)\Working.image" eval "PandaList new exportDataToCSV: 'C:\\Users\\natha\\Downloads\\Export.csv'.") updates the CSV. This data is then used 
+Calling the following method in VSCode updates the CSV for our program. This data is then used 
 for our average page to supply the statistics and the backend of our program.
 
 ![image](https://github.com/user-attachments/assets/bca5e92b-138c-4e9b-8302-90fb6454b419)
