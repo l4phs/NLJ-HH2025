@@ -54,6 +54,7 @@ stepsNeeded (calculates steps needed to reach 10,000 of the current day) todayAb
 **Exporting to CSV**
 Lastly, all the methods were called and stored in a string:
 ![image](https://github.com/user-attachments/assets/b501e609-23f4-4d6d-9d4e-b4c8fd519040)
+
 and then exported to a CSV via a function that calls the previous one to get all the data to allow VSCode to only have to call one method on Pharo:
 ![image](https://github.com/user-attachments/assets/51d06498-ad92-49de-a93c-0c74b093b607)
 
