@@ -40,10 +40,17 @@ From there it will then do all the methods that process the data for our applica
 
 **Data Processing Methods**
 
-Our function uses 9 methods including averageAllTime (gets average steps for all data) averagePerDay (gets average per day of the week) averagePerDay2025 (gets average per day of the week in 2025) 
-averageStepsPerMileAllTime (gets average amount of steps to reach a mile) listingAllDays (lists all days in the orderedCollection with steps) 
-longestStreak (gets the longest streak of reaching 10,000 steps) percentAboveGoal(calculates he percent of days above 10,000 steps) 
-stepsNeeded (calculates steps needed to reach 10,000 of the current day) todayAboveAverage (returns if the user was above their average steps for the current day) 
+Our function uses 9 methods including 
+- averageAllTime (gets average steps for all data)
+- averagePerDay (gets average per day of the week)
+- averagePerDay2025 (gets average per day of the week in 2025)
+- averageStepsPerMileAllTime (gets average amount of steps to reach a mile)
+- listingAllDays (lists all days in the orderedCollection with steps)
+- longestStreak (gets the longest streak of reaching 10,000 steps)
+- percentAboveGoal(calculates he percent of days above 10,000 steps)
+- stepsNeeded (calculates steps needed to reach 10,000 of the current day)
+- todayAboveAverage (returns if the user was above their average steps for the current day)
+  
 ![image](https://github.com/user-attachments/assets/a5dfc9cb-19a5-4c1c-aa49-c46c51491780)
 ![image](https://github.com/user-attachments/assets/8906103a-6051-4cf4-86c6-226c509c7292)
 ![image](https://github.com/user-attachments/assets/720eecf9-61d4-483c-98b6-0a401ab628f6)
