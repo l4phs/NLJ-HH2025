@@ -55,12 +55,19 @@ stepsNeeded (calculates steps needed to reach 10,000 of the current day) todayAb
 ![image](https://github.com/user-attachments/assets/a427ca29-472e-4028-933a-fbef0b01d24e)
 ![image](https://github.com/user-attachments/assets/19d3f5cb-9dd5-40fb-b318-03212556063c)
 
+When all of these methods are called, it produced this data as a result:
+
+![image](https://github.com/user-attachments/assets/9144963f-7874-4703-931a-6a082af11502)
+
+
+
 **Exporting to CSV**
 
 Lastly, all the methods were called and stored in a string:
 ![image](https://github.com/user-attachments/assets/b501e609-23f4-4d6d-9d4e-b4c8fd519040)
 
 and then exported to a CSV via a function that calls the previous one to get all the data to allow VSCode to only have to call one method on Pharo:
+
 ![image](https://github.com/user-attachments/assets/51d06498-ad92-49de-a93c-0c74b093b607)
 
 
