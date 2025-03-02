@@ -9,7 +9,6 @@ import { useFonts } from "expo-font";
 
 export default function AverageScreen() {
 
-
   SplashScreen.preventAutoHideAsync();
 
     const [fontsLoaded] = useFonts({

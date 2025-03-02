@@ -1,5 +1,3 @@
-// components/CircularProgress.tsx
-
 import React from 'react';
 import { View } from 'react-native';
 import Svg, { Circle } from 'react-native-svg';
@@ -21,7 +19,7 @@ const CircleProgress: React.FC<CircularProgressProps> = ({ percentage, radius, s
         width={radius * 2}
         height={radius * 2}
         viewBox={`0 0 ${radius * 2} ${radius * 2}`}
-        transform="rotate(-90)" // Rotate the SVG by -90 degrees to start from the top
+        transform="rotate(-90)"
       >
         <Circle
           cx={radius}
