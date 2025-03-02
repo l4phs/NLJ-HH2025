@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
   },
 
   titleHeader: {
-    fontSize: 44,
+    fontSize: 50,
     color: "#F3F7F2",
     fontFamily: "Amarante_400Regular",
     //marginBottom: 30,
