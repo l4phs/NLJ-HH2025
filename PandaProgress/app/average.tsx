@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     paddingTop: 60, // Padding at the top for spacing
     paddingHorizontal: 20, // Horizontal padding
     justifyContent: 'flex-start', // Align the sections at the top
-    paddingBottom: 20, // Padding at the bottom
+    paddingBottom: 100, // Padding at the bottom
   },
   titleHeader: {
     fontSize: 38,

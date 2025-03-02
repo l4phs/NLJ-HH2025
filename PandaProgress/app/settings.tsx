@@ -108,7 +108,7 @@ export default function SettingsScreen() {
   return (
     <View style={styles.screenContainer}>
       <Text style={styles.titleHeader}>Set Your Daily Goals</Text>
-      <Image source={require('@/assets/images/Bamboo6Horizontal.png')} style={styles.bambooBar} />
+      <Image source={require('@/assets/images/Bamboo4Horizontal..png')} style={styles.bambooBar} />
       
       <Text style={styles.contentCss}>Current Step Goal: {stepsGoal}</Text>
       {/* Text Input for steps goal */}
@@ -199,9 +199,10 @@ const styles = StyleSheet.create({
     borderRadius: 100, 
   },
   bambooBar: {
-    marginBottom: -220,
+    marginBottom: -250,
+    marginRight: 90,
     height: "55%",
-    width: "55%"
+    width: "70%"
   },
   saveButton: {
     height: 50, 
