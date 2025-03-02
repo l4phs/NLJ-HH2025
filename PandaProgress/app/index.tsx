@@ -71,11 +71,12 @@ const styles = StyleSheet.create({
   statusbar: {
     height: "10%",
     width: "70%",
-    backgroundColor: "rgb(38, 65, 31)",
+    //backgroundColor: "rgb(38, 65, 31)",
   },
   bambooBar: {
     height: "100%",
-    width: "100%",
+    width: "120%",
+    marginTop: "-8%",
+    marginRight: "30%",
   }
-
 });
