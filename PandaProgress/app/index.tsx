@@ -29,7 +29,7 @@ export default function Index() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <View style={styles.screenContainer}>
         <Text style={styles.titleHeader}>Panda Progress</Text>
-        <Image source={require('@/assets/images/react-logo.png')} style={styles.image} />
+        <Image source={require('@/assets/images/PandaOG.png')} style={styles.image} />
         <Text style={styles.smallFont}>Panda Status: </Text>
         <View style={styles.statusbar}></View>
       </View>
@@ -51,9 +51,11 @@ const styles = StyleSheet.create({
     fontFamily: "Amarante_400Regular",
   },
   image: {
-    width: 500,
-    height: 600,
-    marginBottom: 70,
+    marginTop: "12%",
+    width: 700,
+    height: 550,
+    marginBottom: 10,
+    marginRight: "20%",
   },
   smallFont: {
     fontSize: 24,
