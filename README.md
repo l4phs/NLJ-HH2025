@@ -9,3 +9,4 @@ Link to expo startup info: https://docs.expo.dev/tutorial/create-your-first-app/
 
 **Look at SmallTalk usage.md for information (aka code and descriptions) related to small talk used in this app.**
 
+Smalltalk was used in this application via Pharo and was used to process data regarding how much steps a user walked. Calling the following method in VSCode updates the CSV for our program. This data is then used for our average page to supply the statistics and the backend of our program.
