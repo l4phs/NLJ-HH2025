@@ -1,6 +1,7 @@
 Smalltalk Information:
 
 **Overall**
+
 Smalltalk was used in this application via Pharo and was used to process data regarding how much steps a user walked. 
 Calling the following method in VSCode with the command (& "C:\Users\natha\Documents\Pharo\vms\130-x64\Pharo.exe" "C:\Users\natha\Documents\Pharo\images\Pharo 13.0 
 64bit (development version, latest)\Working.image" eval "PandaList new exportDataToCSV: 'C:\\Users\\natha\\Downloads\\Export.csv'.") updates the CSV. This data is then used 
@@ -14,6 +15,7 @@ The updated csv sheet looks like:
 The Pharo image was too big to be published on Github (even when compressed) but can be emailed if needed.
 
 **Smalltalk In The Application**
+
 Two classes were used to process all the data, Panda and PandaList:
 
 ![image](https://github.com/user-attachments/assets/6dcffb92-5dea-4a1b-8636-2853aab1d23c)
@@ -37,6 +39,7 @@ After all the pandas are created, the PandaList will be an OrderedCollection fil
 From there it will then do all the methods that process the data for our application.
 
 **Data Processing Methods**
+
 Our function uses _ methods including averageAllTime (gets average steps for all data) averagePerDay (gets average per day of the week) averagePerDay2025 (gets average per day of the week in 2025) 
 averageStepsPerMileAllTime (gets average amount of steps to reach a mile) listingAllDays lists all days in the orderedCollection with steps) 
 longestStreak (gets the longest streak of reaching 10,000 steps) percentAboveGoal(calculates he percent of days above 10,000 steps) 
@@ -52,6 +55,7 @@ stepsNeeded (calculates steps needed to reach 10,000 of the current day) todayAb
 ![image](https://github.com/user-attachments/assets/19d3f5cb-9dd5-40fb-b318-03212556063c)
 
 **Exporting to CSV**
+
 Lastly, all the methods were called and stored in a string:
 ![image](https://github.com/user-attachments/assets/b501e609-23f4-4d6d-9d4e-b4c8fd519040)
 
