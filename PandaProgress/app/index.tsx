@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
     //justifyContent: "center",
     alignItems: "center",
     width: "100%",
-    height: "400%",
+    height: "370%",
     // marginTop: "5%",
     // backgroundColor: "red",
 
