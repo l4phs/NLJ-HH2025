@@ -1,10 +1,8 @@
 # NLJ-HH2025
 
-**Look at smalltalkUsage.md for information (aka code and descriptions) related to small talk used in this app.**
+**Look at [smalltalkUsage.md](https://github.com/l4phs/NLJ-HH2025/blob/main/smalltalkUsage.md) for information (aka code and descriptions) related to small talk used in this app.**
 
 Smalltalk was used in this application via Pharo and was used to process data regarding how many steps a user walked. Calling the following method in VSCode updates the CSV for our program. This data is then used for our average page to supply statistics and the backend of our program. More information 
-
-[smalltalkUsage.md]([url](https://github.com/l4phs/NLJ-HH2025/blob/main/smalltalkUsage.md))
 
 ------------------------------------------------------------------------------------------------------------------------------
 
